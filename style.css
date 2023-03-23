@@ -1,0 +1,185 @@
+* {
+  margin: 0px;
+  font-family: cursive;
+}
+
+.hero {
+  background-color: #1f2937;
+}
+
+.header-logo {
+  width: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.headerTextitems {
+  width: 400px;
+}
+
+.headertext1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #e5e7eb;
+}
+
+.headerTextitems > p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px 10px;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  list-style-type: none;
+  color: #f9faf8;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.top-banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding-top: 4%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.placeholderimg {
+  width: 500px;
+  height: 300px;
+}
+
+/* //////////////////////////////////// */
+
+.secondBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.rndominfo {
+  font-size: 36px;
+  font-weight: 1000;
+  color: #1f2937;
+}
+
+.imglist {
+  width: 200px;
+  height: 200px;
+  border: #3882f6 solid 4px;
+}
+
+.imageItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  width: 150px;
+  align-items: center;
+}
+
+.imageText {
+  text-align: center;
+}
+
+/* ///////////////////////////////////// */
+
+.thirdBanner {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 20px;
+  padding-left: 250px;
+  padding-right: 300px;
+}
+
+.thirdBannerText {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.thirdBannersubscript {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bolder;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+/* ////////////////////////////////////////////// */
+
+.fourthBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 200px;
+  border-radius: 10px 10px;
+  background-color: #3882f6;
+  color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.fourthBannerText1 {
+  font-weight: bold;
+  color: white;
+}
+.fourthBannerText2 {
+  font-weight: lighter;
+}
+
+.signup1 {
+  background-color: #2464ed;
+  color: white;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px 10px;
+  font-weight: 600;
+  border: white 2px solid;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  height: 50px;
+}
